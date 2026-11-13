@@ -1,0 +1,19 @@
+{
+  "name": "opendata-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for the Italian open data catalog dati.gov.it, built with IBM Bob",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "license": "MIT",
+  "author": "Giuseppe Ciano"
+}
