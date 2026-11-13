@@ -1,5 +1,7 @@
 # opendata-mcp
 
+> Built with [IBM Bob](https://www.ibm.com/products/bob): planned in Plan mode, implemented in Agent mode and reviewed for production in Ask mode. The original plan is in [opendata-mcp-plan.md](opendata-mcp-plan.md).
+
 An MCP server that gives AI agents **read-only access to the Italian open data catalogue** at [dati.gov.it](https://www.dati.gov.it) through its public [CKAN API](https://www.dati.gov.it/opendata/api/3/action/). No API key required.
 
 Transport: **stdio** — compatible with any MCP client that supports stdio servers (Claude Desktop, Bob, Cursor, etc.).
